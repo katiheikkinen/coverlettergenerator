@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coverletter Generator</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/skeleton.css">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <script src='javascripts/jquery-3.1.1.min.js'></script>
+  <script src='javascripts/script.js'></script>
+  <script src='javascripts/thankyou.js'></script>
+</head>
+<body>
+  <div class="section hero">
+    <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h6 class="hero-heading">Start your new career by generating a cover letter:</h4>
+          </div>
+           <div class="one-half column" id="left">
+             <span class="position">
+               <h4 class="choices1">I am a </h4>
+             </span>
+           </div>
+           <div class="one-half column" id="right">
+              <span class="position-edit">
+                <select class="u-pull-left" id="exampleRecipientInput">
+                  <option value="Option 1">Choose your desired position</option>
+                  <option value="Option 2">Product Owner</option>
+                  <option value="Option 3">Architect</option>
+                  <option value="Option 4">Software Developer</option>
+                  <option value="Option 5">Scrum Master</option>
+                  <option value="Option 6">Development Manager</option>
+                </select>
+              </span>
+            </div>
+            <div class="twelve columns">
+            <div class="one-half column" id="left">
+              <span class="place-to-work">
+              <h4 class="choices2">I'd like to work at</h4>
+              </span>
+            </div>
+            <div class="one-half column" id="right">
+              <span class="place-to-work-edit">
+              <input class="u-pull-left" type="text" placeholder="Place to work" id="placetoworkInput">
+              </span>
+            </div>
+            </div>
+            <div class="twelve columns">
+              <a class="button button-primary">Generate!</a>
+            </div>
+        </div>
+      </div>
+  </div>
+  <div class="section values">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+            <label for="exampleMessage">Your generated cover letter:</label>
+            <div class="coverlettertext">
+            </div>
+            <div class="list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
